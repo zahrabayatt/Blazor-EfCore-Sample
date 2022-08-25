@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32728.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorEfCoreSample.Api", "BlazorEfCoreSample.Api\BlazorEfCoreSample.Api.csproj", "{77C269F3-E33F-49A6-B317-01E08A7A1F0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEfCoreSample.Web", "BlazorEfCoreSample.Web\BlazorEfCoreSample.Web.csproj", "{7374A761-5E9D-405E-9405-C1D4F5588569}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorEfCoreSample.Web", "BlazorEfCoreSample.Web\BlazorEfCoreSample.Web.csproj", "{7374A761-5E9D-405E-9405-C1D4F5588569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{4C6B6583-4CF3-4415-BF49-69F78731BBBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7374A761-5E9D-405E-9405-C1D4F5588569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7374A761-5E9D-405E-9405-C1D4F5588569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7374A761-5E9D-405E-9405-C1D4F5588569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6B6583-4CF3-4415-BF49-69F78731BBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6B6583-4CF3-4415-BF49-69F78731BBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6B6583-4CF3-4415-BF49-69F78731BBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6B6583-4CF3-4415-BF49-69F78731BBBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
